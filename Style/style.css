@@ -1,0 +1,333 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* Main Styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "poppins", sans-serif;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 100%;
+    max-width: 100%;
+}
+::-webkit-scrollbar{
+    width: 1rem;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #00e6b8;
+    border-radius: 10rem;
+}
+/* Nav Styling */
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ 
+}
+.logo-img{
+     width: 20rem;
+     transition: transform .4s;
+}
+.logo-img:hover{
+    transform: scale(1.1);
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-item{
+    padding: 2rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+    color: #00CCC5;
+    font-weight: 500;
+    transition: al .4s;
+}
+.nav-link:hover{
+    transform: scale(1.1);
+    color: #009e99;
+}
+/* First Section */
+.container-first{
+    width: 90%;
+    margin: 0 auto;
+    background: linear-gradient(#00FFF6, #00CCC4);
+    border-radius: 2.3rem;
+    height: 40rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+.girl-img{
+    margin:0 auto;
+}
+.girl{
+    width: 30rem;
+    position: absolute;
+    bottom: 0;
+    left: 3rem;
+}
+.info{
+    max-width: 30rem;
+    margin-left: 3rem;
+}
+.title-first{
+    color: white;
+    font-weight: bolder;
+    margin-top: 4rem;
+    font-size: 3rem;
+}
+.btn{
+    color: white;
+    background-color: #00FAC7;
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    transition: background-color .4s;
+    filter: drop-shadow(0 .3rem .6rem rgba(0, 0, 0, 0.062));
+}
+.btn:hover{
+    background-color: #00e6b8;
+}
+/* Second Section */
+.second{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-second{
+    width: 100%;
+}
+.title-second{
+    text-align: center;
+    margin: 3rem;
+}
+.title{
+    font-size: 3rem;
+    color: #00F2E9;
+}
+.boxs-container{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(38rem, 1fr));
+    grid-gap: 2rem;
+    padding: 1rem;
+    margin: 0 auto;
+}
+.box{
+    width: 31rem;
+    height: 43rem;
+    background: linear-gradient(#00FFF6, #00CCC4);
+    border-radius: 1.5rem;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    transition: transform .4s;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+.product-img{
+    width: 25rem;
+}
+.price{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    background-color: white;
+    color: #00e6b8;
+    font-size: 1.2rem;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: bold;
+}
+.product-name{
+    max-width: 30rem;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+.second-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+}
+.btn-second{
+    padding: 1rem 3rem;
+}
+/* Third Section */
+.third{
+    text-align: center;
+    margin: 1rem;
+}
+.para{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    color: #00F2E9;
+    font-weight: 600;
+    max-width: 30rem;
+    margin: 0 auto;    
+}
+.btn-third{
+    transition: transform .4s;
+    cursor:default;
+}
+.btn-third:hover{
+    transform: scale(1.1);
+}
+/* Fours Section */
+.fours{
+    text-align: center;
+    margin: 2rem;
+}
+.icons{
+
+    margin: 3rem 0;
+}
+.icon{
+    margin-bottom: 1rem;
+    transition: transform .4s;
+}
+.icon-link{
+    margin: 1.4rem;
+}
+.icon:hover{
+    transform: scale(1.5);
+}
+/* Footer */
+.footer{
+    width: 100%;
+    padding: 2rem;
+    background-color: #00FAC7;
+    color: white;
+    text-align: center;
+}
+.para-footer{
+    font-size: 1.5rem;
+}
+.second-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+.footer-link{
+    color: white;
+    margin: .7rem;
+    font-size: 1.5rem;
+    transition: color .4s;
+}
+.footer-link:hover{
+    color: #00F2E9;
+}
+.third-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+}
+.footer-icon-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    font-size: 1.3rem;
+}
+.icon-name{
+    font-size: 1.4rem;
+    margin: .5rem 0;
+    margin-bottom: 3rem;
+}
+.last{
+    font-size: 1.5rem;
+}
+
+/* Media */
+@media screen and (min-width:600px){
+    .container-first{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .girl{
+        left: 30%;
+        width: 40rem;
+    }
+}
+@media screen and (min-width:700px){
+    .boxs-container{
+        grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+    }
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .girl{
+        left: 30%;
+        width: 45rem;
+    }
+    .middle{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .para-footer{
+        max-width: 30rem;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width:800px){
+    .girl{
+        left: 50%;
+        width: 50rem;
+    }
+    .boxs-container{
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    }
+}
+@media screen and (min-width:1200px){
+    nav{
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        background-color: white;
+    }
+    .girl{
+        left: 60%;
+        width: 60rem;
+    }
+    .container-first{
+        margin-top: 10rem;
+    }
+    .boxs-container{
+        margin-left: 15rem;
+        grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    }
+}
